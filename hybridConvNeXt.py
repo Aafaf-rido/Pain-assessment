@@ -20,7 +20,7 @@ def main():
         np.random.seed(2001)
         extract_features = False
 
-        folder_path = r"C:/Users/abohi/Desktop/10_DATA/PEMF/Pictures/Pictures/Modified"
+        folder_path = r"/PEMF/Pictures/Modified"
         
         train_features = r"convnextXL_features_data\train_features.npy"
         train_labels = r"convnextXL_features_data\train_labels.npy"
