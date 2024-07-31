@@ -15,7 +15,7 @@ The PEMF dataset comprises 272 micro-clips, each represented by 20 frames. We al
 
 ## Quick Start
 
-1. Load the PEMF dataset
+1. Load the PEMF dataset and change the path variable in the file hybridCovNeXt.py
    
 2. create and activate a conda environment
 
