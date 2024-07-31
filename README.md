@@ -7,7 +7,14 @@ This repository contains two neural network models for pain classification using
 
 1. __ConvNeXt-LSTM Model__: This model extracts spatial features from video frames in the dataset using a pretrained ConvNeXt XLarge network. The extracted features are then passed to an LSTM model to capture the dependencies between frames in a video.
 
+
+![CNN-LSTMglobal](https://github.com/user-attachments/assets/4accacf6-742f-4f69-a472-6528123b7291)
+
+
 2. __STGCN-LSTM Model__: This model uses the facial landmarks from video frames to address the temporal aspect of the data. The landmarks are treated as input to an STGCN-LSTM model, which processes these landmarks as a graph based on the connections between the 68 facial landmarks.
+
+![STGCN](https://github.com/user-attachments/assets/8f6af47f-159c-4daf-8836-ffa5e6669c2f)
+
 
 Both models have a classification layer at the end for binary classification (pain/no pain).
 
